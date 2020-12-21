@@ -1,0 +1,111 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.collapse
+{
+    margin-left: 300px;
+    padding: 15px;
+}
+.N
+{
+    margin-left: 400px;
+}
+.font
+{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+}
+.curve
+{
+    background-color: crimson;
+    height: 100vh;
+    font-family: 'Patrick Hand', cursive;
+
+}
+.curve:hover
+{
+    cursor: pointer;
+    border-radius: 0px 0px 800px 800px;
+    background-color: rgb(175, 6, 40);
+    transition-duration: 1.5s;
+    box-shadow: 3px 3px 80px black;
+    border: 2px solid grey;
+}
+.try-hard
+{
+    height: 80px;
+    width: 120px;
+    position: absolute;
+    left: 260px;
+    top: 15px;
+    border: 2px solid rgb(175, 6, 40);
+    box-shadow: 2px 2px 10px black;
+    border-radius: 30px;
+}
+.content
+{
+    position: absolute;
+    left: 420px;
+    top: 250px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 20px black;
+}
+.cards
+{
+    position: relative;
+    top: 30px;
+    padding: 10px;
+}
+.card
+{
+    border: 1px solid rgb(175, 6, 40);
+    box-shadow: 2px 2px 30px black;
+}
+.card:hover
+{
+    cursor: pointer;
+   border-radius: 120px;
+    transition-duration: 1s;
+    height: 380px;
+  
+    /* transform: rotate(15deg); */
+    /* transform: rotate3d(180deg); */
+}
+.bd
+{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    margin-top: 100px;
+    margin-left: 100px;
+
+  
+}
+.bd:hover
+{
+    transition-duration: 1s;
+    border-width: 2px 2px 2px 2px;
+    border-style: solid dotted solid dotted;
+    border-color: black;
+    box-shadow: 3px 3px 40px black;
+    border-radius: 20px 40px 80px 160px;
+}
+.pic
+{
+    height: 300px;
+    width: 300px;
+    margin: 100px;
+}
+.pic:hover
+{
+    border-radius: 50%;
+    border: 5px solid blueviolet;
+    transition-duration: 1s;
+    box-shadow: 5px 5px 10px slateblue;
+}
